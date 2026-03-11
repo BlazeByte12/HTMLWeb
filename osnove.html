@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Osnovne naredbe</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>Učenje HTML-a</h1>
+    <nav>
+        <a href="index.html">HTML jezik</a>
+        <a href="osnove.html">Osnovne naredbe</a>
+        <a href="primjeri.html">Primjeri</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="section">
+        <h2>Osnovne HTML naredbe</h2>
+        <p>
+            U nastavku se nalaze najvažnije HTML naredbe koje svaki početnik treba znati.
+            Svaka naredba ima svoju svrhu i koristi se za određeni tip sadržaja.
+        </p>
+    </section>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>&lt;h1&gt; - &lt;h6&gt;</h3>
+            <p>
+                Ove oznake služe za naslove. &lt;h1&gt; je najveci naslov,
+                a &lt;h6&gt; je najmanji.
+            </p>
+            <p>
+                Naslovi pomažu da tekst bude organizovan i pregledan.
+            </p>
+<pre>
+&lt;h1&gt;Glavni naslov&lt;/h1&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;p&gt;</h3>
+            <p>
+                Oznaka &lt;p&gt; se koristi za pisanje paragrafa.
+                Svaki paragraf počinje i završava ovom oznakom.
+            </p>
+            <p>
+                Paragrafi se koriste za običan tekst na stranici.
+            </p>
+<pre>
+&lt;p&gt;Ovo je paragraf.&lt;/p&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;a&gt;</h3>
+            <p>
+                Ova oznaka služi za pravljenje linkova.
+                Link vodi na drugu stranicu ili web adresu.
+            </p>
+            <p>
+                Bez linkova internet ne bi mogao funkcionisati.
+            </p>
+<pre>
+&lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;img&gt;</h3>
+            <p>
+                Oznaka &lt;img&gt; se koristi za dodavanje slike.
+                Slika mora imati putanju i opis (alt).
+            </p>
+            <p>
+                Opis je važan jer pomaže pretraživačima i osobama koje koriste čitače ekrana.
+            </p>
+<pre>
+&lt;img src="slika.jpg" alt="Opis"&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;ul&gt; i &lt;li&gt;</h3>
+            <p>
+                Ove oznake služe za pravljenje liste.
+                &lt;ul&gt; pravi listu, a &lt;li&gt; predstavlja jednu stavku.
+            </p>
+            <p>
+                Liste se koriste za nabrajanje informacija.
+            </p>
+<pre>
+&lt;ul&gt;
+  &lt;li&gt;Stavka&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;ol&gt;</h3>
+            <p>
+                &lt;ol&gt; pravi numerisanu listu.
+                Svaka stavka dobija redni broj.
+            </p>
+            <p>
+                Koristi se kada je redoslijed važan.
+            </p>
+<pre>
+&lt;ol&gt;
+  &lt;li&gt;Prvi korak&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;strong&gt;</h3>
+            <p>
+                Oznaka &lt;strong&gt; se koristi za podebljani tekst.
+                Time naglašavamo važan dio rečenice.
+            </p>
+            <p>
+                Pretraživači ovaj tekst smatraju važnijim.
+            </p>
+<pre>
+&lt;strong&gt;Važan tekst&lt;/strong&gt;
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;br&gt;</h3>
+            <p>
+                &lt;br&gt; pravi novi red u tekstu.
+                Koristi se kada želimo prelom linije.
+            </p>
+            <p>
+                Ova oznaka nema zatvaranje.
+            </p>
+<pre>
+Prvi red&lt;br&gt;
+Drugi red
+</pre>
+        </div>
+
+        <div class="card">
+            <h3>&lt;div&gt;</h3>
+            <p>
+                &lt;div&gt; je kontejner koji služi za grupisanje elemenata.
+                On sam po sebi nema izgled.
+            </p>
+            <p>
+                Najčešće se koristi zajedno sa CSS-om za raspored stranice.
+            </p>
+<pre>
+&lt;div&gt;Sadržaj&lt;/div&gt;
+</pre>
+        </div>
+
+    </div>
+
+</main>
+
+
+
+<footer>
+    <p>Školski projekat - 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

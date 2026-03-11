@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML jezik</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>HTML School</h1>
+    <nav>
+        <a href="index.html">HTML jezik</a>
+        <a href="osnove.html">Osnovne naredbe</a>
+        <a href="primjeri.html">Primjeri</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="section">
+        <h2>Šta je HTML?</h2>
+        <p>
+            HTML je osnovni jezik koji se koristi za pravljenje web stranica.
+            Svaka stranica koju vidiš na internetu napravljena je pomoću HTML-a.
+        </p>
+        <p>
+            Pomoću HTML-a mi ne određujemo kako stranica izgleda,
+            nego šta se na njoj nalazi – naslovi, tekst, slike, linkovi i drugi elementi.
+        </p>
+    </section>
+
+    <section class="section card">
+        <h2>Kako funkcioniše web stranica?</h2>
+        <p>
+            Kada u pretraživač (Google Chrome, Edge, Firefox…) upišeš neku adresu,
+            tvoj računar šalje zahtjev serveru.
+        </p>
+        <p>
+            Server zatim vraća HTML dokument koji pretraživač prikazuje kao web stranicu.
+        </p>
+        <p>
+            HTML je zapravo tekstualni fajl koji pretraživač “pretvara” u vizuelnu stranicu.
+        </p>
+    </section>
+
+    <section class="section card">
+        <h2>Struktura URL adrese</h2>
+
+        <img src="images/url-struktura.png" alt="Struktura URL-a">
+
+        <p>
+            URL je adresa web stranice.
+        </p>
+        <p>
+            On se sastoji od:
+        </p>
+        <ul>
+            <li><strong>Protokola</strong> (https)</li>
+            <li><strong>Domene</strong> (naziv stranice)</li>
+            <li><strong>Putanje</strong> (tačna lokacija stranice)</li>
+        </ul>
+    </section>
+
+    <section class="section card">
+        <h2>Struktura domene</h2>
+
+        <img src="images/domena-struktura.png" alt="Struktura domene">
+
+        <p>
+            Domena je naziv web stranice.
+        </p>
+        <p>
+            Na primjer: <strong>www.mojaskola.com</strong>
+        </p>
+        <ul>
+            <li><strong>www</strong> je prefiks</li>
+            <li><strong>mojaskola</strong> je naziv</li>
+            <li><strong>.com</strong> je ekstenzija (tip domene)</li>
+        </ul>
+    </section>
+
+    <section class="section card">
+        <h2>Osnovna struktura HTML dokumenta</h2>
+
+        <p>
+            Svaka HTML stranica ima osnovnu strukturu.
+            Bez nje stranica ne može pravilno raditi.
+        </p>
+
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Naslov stranice&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    Sadržaj stranice
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+        <p>
+            Ukratko:
+        </p>
+        <ul>
+            <li><strong>&lt;html&gt;</strong> – označava početak HTML dokumenta</li>
+            <li><strong>&lt;head&gt;</strong> – sadrži informacije o stranici</li>
+            <li><strong>&lt;body&gt;</strong> – sadrži sadržaj koji vidimo</li>
+        </ul>
+
+    </section>
+
+    <section class="section">
+        <h2>Zaključak</h2>
+        <p>
+            HTML je temelj svake web stranice.
+            Kada naučiš osnove HTML-a, lakše ćeš razumjeti i druge web tehnologije.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    Školski projekat - 2026
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
